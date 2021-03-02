@@ -56,3 +56,20 @@ FROM employees
 GROUP BY last_name
 ORDER BY 
 COUNT(last_name) DESC
+
+
+
+--BONUS
+---Create a bar chart of average salary by title.
+SELECT titles.title, AVG(salaries.salary)
+FROM   ;
+
+SELECT 
+  t.title,
+  s.salary
+FROM titles t
+JOIN employees
+ON (title_id = emp_title_id)
+JOIN salaries s
+USING (emp_no)
+GROUP BY title;
