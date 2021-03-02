@@ -1,4 +1,10 @@
-# SQL Homework - Employee Database: A Mystery in Two Parts
+For my sql project I was tasked with taking multiple csv files and creating a DataBase by combining each csv using primary and foreign keys. Once the database was created I did some analysis on the company. Lastly I loaded my database to jupyter notebook to use Pandas and do a statistical analysis, thus proving the employee data was fake, considering staff make more than engineers, so on. 
+
+
+
+
+
+# SQL - Employee Database: A Mystery in Two Parts
 
 ![sql.png](sql.png)
 
@@ -16,7 +22,7 @@ Note: You may hear the term "Data Modeling" in place of "Data Engineering," but 
 
 ### Before You Begin
 
-1. Create a new repository for this project called `sql-challenge`. **Do not add this homework to an existing repository**.
+1. Create a new repository for this project called `sql-challenge`.
 
 2. Clone the new repository to your computer.
 
